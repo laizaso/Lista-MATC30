@@ -17,7 +17,6 @@ def gcbrGenerateRandomArray(gcbrSize, gcbrMinVal=1, gcbrMaxVal=100):
     return [random.randint(gcbrMinVal, gcbrMaxVal) for _ in range(gcbrSize)]
 
 def gcbrMain():
-    # Entradas automáticas conforme exemplo fornecido
     gcbrT = 2
     gcbrCasos = [
         [1, 1, 1, 2, 2],
